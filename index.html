@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pessoa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="objetivos-container">
+        <h3 class="titulo-objetivos">Objetivos:</h3>
+        <p class="obje"tivo" id="objetivo01">Se torne um Milionário ⛔</p>
+        <p class="objetivo" id="objetivo02">Se torne um Bilionário ⛔</p>
+    </div>
+    <div class="container">
+        <h1 class="saldo">Saldo:</h1>
+        <p class="valor">R$ 0,00</p>
+    </div>
+    <div class="container">
+        <h2 class="multiplicadorb">Multiplicador: </h2>
+        <p class="multiplicadorV">0x</p>
+    </div>
+    <button class="botao-gerar" id="botao-gerar">$ Gerar Dinheiro $</button>
+    <img src="assets/ostentacao.gif" alt="Milionário GIF" id="gif-milionario" style="display: none;">
+    <div class="sifroes"></div>
+    <div class="produtos-container">
+        <div class="coluna">
+            <div class="produto" id="produto-calculadora">
+                <h2>🧮 - Calculadora</h2>
+                <p>Preço: R$ 20,00</p>
+                <p>Multiplicador: 5x</p>
+                <button class="botao-comprar" id="calculadora-comprar">Comprar</button>
+            </div>
+            <div class="produto" id="produto-celular">
+                <h2>📱 - Celular Simples</h2>
+                <p>Preço: R$ 300,00</p>
+                <p>Multiplicador: 10x</p>
+                <button class="botao-comprar" id="celular-comprar">Comprar</button>
+            </div>
+        </div>
+        <div class="coluna">
+            <div class="produto" id="produto-pcsimple">
+                <h2>💻 - PC Simples</h2>
+                <p>Preço: R$ 1.000,00</p>
+                <p>Multiplicador 50x</p>
+                <button class="botao-comprar" id="pcsimple-comprar">Comprar</button>
+            </div>
+            <div class="produto" id="produto-pcadvanced">
+                <h2>💻 - PC Avançado</h2>
+                <p>Preço: R$ 5.000,00</p>
+                <p>Multiplicador: 100x</p>
+                <button class="botao-comprar" id="pcadvanced-comprar">Comprar</button>
+            </div>
+        </div>
+        <div class="coluna">
+            <div class="produto" id="produto-onix">
+                <h2>🚗 - Chevrolet Onix</h2>
+                <p>Preço: R$ 50.000,00</p>
+                <p>Multiplicador 500x</p>
+                <button class="botao-comprar" id="onix-comprar">Comprar</button>
+            </div>
+            <div class="produto" id="produto-bmw">
+                <h2>🚗 - BMW 320i</h2>
+                <p>Preço: R$ 200.000,00</p>
+                <p>Multiplicador: 1000x</p>
+                <button class="botao-comprar" id="bmw-comprar">Comprar</button>
+            </div>
+        </div>
+        <div class="coluna">
+            <div class="produto" id="produto-ferrari">
+                <h2>🚗 - Ferrari Roma</h2>
+                <p>Preço: R$ 1.000.000,00</p>
+                <p>Multiplicador 1 Milhão</p>
+                <button class="botao-comprar" id="ferrari-comprar">Comprar</button>
+            </div>
+            <div class="produto" id="produto-mansao">
+                <h2>🏠 - Mansão à Beira Mar</h2>
+                <p>Preço: R$ 10.000.000,00</p>
+                <p>Multiplicador: 10 Milhões</p>
+                <button class="botao-comprar" id="mansao-comprar">Comprar</button>
+            </div>
+        </div>
+    </div>
+    <p class="cliques">Cliques: 0</p>
+    <div id="cronometro" class="cronometro"></div>
+</body>
+</html>
