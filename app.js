@@ -159,4 +159,3 @@ function atualizarCronometro() {
 }
 
 setInterval(atualizarCronometro, 1000);
-""
